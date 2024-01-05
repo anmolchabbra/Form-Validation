@@ -53,9 +53,23 @@ h1 {
 .form-control .error {
     color: #f900ae;
     font-size: 12px;
+    height: 13px;
+    margin:10px;
+}
+
+
+
+.form-control.succes input{
+    border-color: green;
+}
+
+.form-control.error input{
+    border-color: red;
 }
 
 #form #btn:hover {
     background-color: #af00fa;
-   
+
 }
+
+
